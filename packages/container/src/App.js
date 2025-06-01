@@ -10,7 +10,7 @@ import Progress from "./components/Progress";
 const MarketingLazy = lazy(() => import("./components/MarketingApp"));
 const AuthLazy = lazy(() => import("./components/AuthApp"));
 const generateClassName = createGenerateClassName({
-  productionPrefix: "co",
+  productionPrefix: "co", // 컨테이너 앱은 "co" 사용
 });
 
 export default () => {
